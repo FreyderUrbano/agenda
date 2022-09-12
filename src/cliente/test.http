@@ -1,0 +1,26 @@
+GET http://localhost:3001/user
+
+###
+POST http://localhost:3001/user
+Content-Type: application/json
+
+{
+    "nombre": "TOPA MIA URBANO",
+    "celular": "4009008545",
+    "email": "topamia@gmail.com",
+    "direccion": "Brazil"
+}
+
+###
+PUT http://localhost:3001/user/631be4fab334847714daf269
+Content-Type: application/json
+
+{
+    "nombre": "CARLOS PORTELA",
+    "celular": "3204589999",
+    "email": "PORTELA@gmail.com",
+    "direccion": "bogota Colombia"
+}
+
+###
+DELETE http://localhost:3001/user/631d6c7ead7ca2465b95f8c1
